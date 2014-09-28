@@ -1,0 +1,38 @@
+.page{
+	width: 980px;
+	margin: 0 auto;
+	min-height: 1000px;	
+}
+.carousel{
+	height: 300px;
+	width: 100%;
+	background-color: #efefef;
+	position: relative;
+}
+
+.play-video-btn{
+	width: 80px;
+	height: 80px;
+	display: block;
+	position: absolute;
+	background-color: red;
+	left: 120px;
+	bottom: 50px;
+}
+.carousel-video-wrapper{
+	height: 300px;
+	width: 100%;
+	background-color: black;
+	display: none;
+	z-index: 999;
+	position: absolute;
+}
+
+.video-wrapper-close{
+	width: 20px;
+	height: 20px;
+	background-color: green;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
